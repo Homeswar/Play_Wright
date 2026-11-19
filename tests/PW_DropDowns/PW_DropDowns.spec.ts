@@ -68,3 +68,8 @@ test(' 3. Test Cases – Sorted Dropdown Validation',async({page})=>
     console.log(sortedList);
     expect(sortedList).toEqual(originalList);
 });
+
+test('To Test the GIT',async({page})=>
+{
+    //if this appears then git working correctly
+});
